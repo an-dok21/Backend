@@ -40,7 +40,7 @@ def confirm_subscription(request, token):
     return JsonResponse({'message': 'Subscription confirmed!'})
 
 def send_confirmation_email(email, token):
-    confirm_url = f'http://127.0.0.1:5500/email/confirm/{token}/'
+    confirm_url = f'https://frontend-ten-xi-92.vercel.app/email/confirm/{token}/'
     send_mail(
         'Confirm your subscription',
         f'Click the link to confirm your subscription: {confirm_url}',
