@@ -1,0 +1,3 @@
+import os
+# WEATHER_API_KEY = os.getenv('WEATHER_API_KEY')
+WEATHER_API_KEY = 'cb92e3ab3b7c4f4a91b81901232111'
